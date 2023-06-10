@@ -1,0 +1,86 @@
+/**,
+*::before,
+*::after {
+    box-sizing: border-box;
+}*/
+
+html {
+    background-color:  hsl(212, 45%, 89%);
+}
+.main_div {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 75px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.main_div  .img_qrCode {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px
+}
+.main_div img {
+    width: 90%;
+    height: 75%;
+    border-radius: 20px;
+}
+.text__1 {
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 19px;
+}
+.text__p {
+    margin: 0px 20px 40px;
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+    
+}
+/*.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}*/
+@media screen and (min-width: 576px) {
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .main_div {
+        width: 65%;
+        height: 65%;
+    }
+}
+@media  screen and (min-width: 768px) {
+
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .main_div {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 992px){
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .main_div {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1360px){
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+    .main_div {
+        width: 22%;
+    }
+}
+    
